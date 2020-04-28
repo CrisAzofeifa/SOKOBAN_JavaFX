@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="577.0" style="-fx-background-color: #B8860B;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sokoban.Acerca_deController">
+   <children>
+      <ImageView fitHeight="131.0" fitWidth="133.0" layoutX="222.0" layoutY="326.0">
+         <image>
+            <Image url="@../ImgProyecto/RobotV3-38-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="391.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="39.0" layoutY="428.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="214.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="251.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="288.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="319.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="354.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="232.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="193.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="154.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="117.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="78.0" layoutY="-1.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="39.0" layoutY="-1.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="-4.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="30.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="67.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="104.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="141.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="178.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="178.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="141.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="111.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="74.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="37.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="499.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="460.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="421.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="382.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="343.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="304.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="271.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="241.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="280.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="313.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="352.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="391.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="430.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="460.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="499.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="436.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="399.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="362.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="325.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="288.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="251.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="115.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="202.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="39.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="48.0" layoutX="154.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/descargar.jpg" />
+         </image>
+      </ImageView>
+      <Label graphicTextGap="5.0" layoutX="174.0" layoutY="35.0" prefHeight="78.0" prefWidth="230.0" text="SOKOBAN" textFill="#250606" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="133.0" prefHeight="37.0" prefWidth="101.0" text="Profesor:">
+         <font>
+            <Font name="Consolas Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label graphicTextGap="5.0" layoutX="223.0" layoutY="133.0" prefHeight="37.0" prefWidth="240.0" text="Hairol Romero Sandí" textFill="#250606" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="178.0" prefHeight="37.0" prefWidth="133.0" text="Estuadiante:">
+         <font>
+            <Font name="Consolas Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label graphicTextGap="5.0" layoutX="232.0" layoutY="178.0" prefHeight="37.0" prefWidth="240.0" text="Luis Monge Cordero" textFill="#250606" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="270.0" prefHeight="37.0" prefWidth="48.0" text="Año:">
+         <font>
+            <Font name="Consolas Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label graphicTextGap="5.0" layoutX="231.0" layoutY="270.0" prefHeight="37.0" prefWidth="60.0" text="2020" textFill="#250606" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="222.0" prefHeight="37.0" prefWidth="71.0" text="Ciclo:">
+         <font>
+            <Font name="Consolas Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label graphicTextGap="5.0" layoutX="235.0" layoutY="222.0" prefHeight="37.0" prefWidth="11.0" text="l" textFill="#250606" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="33.0" layoutX="380.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="29.0" fitWidth="33.0" layoutX="473.0" layoutY="137.0">
+         <image>
+            <Image url="@../ImgProyecto/Profesor.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="472.0" layoutY="178.0">
+         <image>
+            <Image url="@../ImgProyecto/Estudiante.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="33.0" layoutX="297.0" layoutY="270.0">
+         <image>
+            <Image url="@../ImgProyecto/Año.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="258.0" layoutY="226.0">
+         <image>
+            <Image url="@../ImgProyecto/Ciclo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="539.0" layoutY="141.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="149.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="539.0" layoutY="37.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="67.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="104.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="54.0" layoutX="523.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="489.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="450.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="411.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="372.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="336.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="299.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="260.0" layoutY="-1.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="221.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="183.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="147.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="108.0" layoutY="-1.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="69.0" layoutY="-1.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="39.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="39.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="56.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="86.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="115.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="185.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="222.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="255.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="289.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="325.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="362.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="399.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="431.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="112.0" layoutY="335.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="504.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="466.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="427.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="388.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="349.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="310.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="271.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="232.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="193.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="155.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="117.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="78.0" layoutY="468.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="39.0" layoutY="468.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="39.0" layoutX="538.0" layoutY="463.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="428.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="391.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="354.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="317.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="282.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="539.0" layoutY="251.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="214.0">
+         <image>
+            <Image url="@../ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="538.0" layoutY="178.0">
+         <image>
+            <Image url="@../Pictures/Saved%20Pictures/ImgProyecto/Muro.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="415.0" layoutY="368.0" mnemonicParsing="false" onAction="#clickBtnVolver" prefHeight="26.0" prefWidth="78.0" style="-fx-background-color: BLACK;" text="Volver" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

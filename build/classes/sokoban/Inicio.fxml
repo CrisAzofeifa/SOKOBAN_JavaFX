@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="521.0" prefWidth="528.0" style="-fx-background-color: #D2691E;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sokoban.InicioController">
+   <children>
+      <Label layoutX="100.0" layoutY="265.0" text="Nombre del jugador:" />
+      <Label layoutX="100.0" layoutY="310.0" text="Dificultad:" />
+      <ComboBox fx:id="dificultad" layoutX="279.0" layoutY="306.0" prefHeight="26.0" prefWidth="198.0" />
+      <Label layoutX="79.0" layoutY="119.0" text="Sokoban">
+         <font>
+            <Font size="57.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="408.0" text="¡Da click en iniciar y ayuda al Ultron a superar los diferentes niveles!" />
+      <TextField fx:id="nombre" layoutX="279.0" layoutY="261.0" prefHeight="26.0" prefWidth="198.0" />
+      <Button fx:id="BtnAcercaDe" layoutX="349.0" layoutY="32.0" mnemonicParsing="false" onAction="#clickBtnAcercaDe" prefHeight="26.0" prefWidth="131.0" text="Acerca de" />
+      <Button fx:id="BtnIniciar" layoutX="243.0" layoutY="441.0" mnemonicParsing="false" onAction="#clickBtnIniciar" prefHeight="26.0" prefWidth="97.0" text="Iniciar" />
+      <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="452.0" layoutY="32.0">
+         <image>
+            <Image url="@../ImgProyecto/AcercaDe.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="164.0" fitWidth="166.0" layoutX="300.0" layoutY="79.0">
+         <image>
+            <Image url="@../ImgProyecto/RobotV3-38-512.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="100.0" layoutY="349.0" text="Nivel:" />
+      <ComboBox fx:id="nivel" layoutX="279.0" layoutY="354.0" prefHeight="26.0" prefWidth="198.0" />
+      <Button layoutX="212.0" layoutY="32.0" mnemonicParsing="false" onAction="#clickBtnLogros" prefHeight="26.0" prefWidth="131.0" text="Logros" />
+   </children>
+</AnchorPane>
